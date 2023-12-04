@@ -1,0 +1,23 @@
+{
+  "name": "Buyable Blueprints",
+  "author": "Mosken",
+  "description": "Allows buying all blueprints from trade posts",
+  "version": "1.0.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.09",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/buyable-blueprints/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [], 
+  "modSettings": [
+    {
+      "type": "checkbox",
+      "text": "Trade Posts Sell Blueprints",
+      "name": "buyBlueprints",
+      "default": true,
+      "section": "onoff"
+    }
+  ]
+}
